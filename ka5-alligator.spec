@@ -1,37 +1,36 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	23.08.4
+%define		kdeappsver	24.01.95
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		alligator
 Summary:	A convergent RSS/Atom feed reader
 Name:		ka5-%{kaname}
-Version:	23.08.4
-Release:	1
+Version:	24.01.95
+Release:	0.1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
-Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	4f41b516443dfa2202b9cde3fe766f3d
+Source0:	https://download.kde.org/unstable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
+# Source0-md5:	69283dc9bf5fbdbe21682b7855c61791
 URL:		http://www.kde.org/
-BuildRequires:	Qt5Core-devel >= 5.15.2
-BuildRequires:	Qt5Gui-devel
-BuildRequires:	Qt5Network-devel >= 5.15.9
-BuildRequires:	Qt5Qml-devel >= 5.15.9
-BuildRequires:	Qt5Quick-controls2-devel
-BuildRequires:	Qt5Quick-devel
-BuildRequires:	Qt5Sql-devel
-BuildRequires:	Qt5Test
-BuildRequires:	Qt5Widgets-devel
+BuildRequires:	Qt6Core-devel >= 5.15.2
+BuildRequires:	Qt6Gui-devel
+BuildRequires:	Qt6Network-devel >= 5.15.9
+BuildRequires:	Qt6Qml-devel >= 5.15.9
+BuildRequires:	Qt6Quick-devel
+BuildRequires:	Qt6Sql-devel
+BuildRequires:	Qt6Test
+BuildRequires:	Qt6Widgets-devel
 BuildRequires:	gettext-devel
-BuildRequires:	kf5-extra-cmake-modules >= 5.90.0
-BuildRequires:	kf5-kconfig-devel >= 5.90.0
-BuildRequires:	kf5-kcoreaddons-devel >= 5.90.0
-BuildRequires:	kf5-ki18n-devel >= 5.90.0
-BuildRequires:	kf5-syndication-devel >= 5.90.0
+BuildRequires:	kf6-extra-cmake-modules >= 5.90.0
+BuildRequires:	kf6-kconfig-devel >= 5.90.0
+BuildRequires:	kf6-kcoreaddons-devel >= 5.90.0
+BuildRequires:	kf6-ki18n-devel >= 5.90.0
+BuildRequires:	kf6-syndication-devel >= 5.90.0
 BuildRequires:	kirigami-addons-devel >= 0.6
 BuildRequires:	ninja
-BuildRequires:	qt5-build >= %{qtver}
+BuildRequires:	qt6-build >= %{qtver}
 BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	shared-mime-info
 BuildRequires:	tar >= 1:1.22

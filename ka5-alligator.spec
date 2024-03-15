@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	23.08.4
+%define		kdeappsver	23.08.5
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		alligator
 Summary:	A convergent RSS/Atom feed reader
 Name:		ka5-%{kaname}
-Version:	23.08.4
+Version:	23.08.5
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	4f41b516443dfa2202b9cde3fe766f3d
+# Source0-md5:	d77cd5bfeed9ee26918b26aac5578412
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= 5.15.2
 BuildRequires:	Qt5Gui-devel

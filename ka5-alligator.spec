@@ -34,7 +34,7 @@ BuildRequires:	kf5-kirigami-addons-devel >= 0.6
 BuildRequires:	kf5-syndication-devel >= 5.90.0
 BuildRequires:	ninja
 BuildRequires:	qt5-build >= %{qtver}
-BuildRequires:	rpmbuild(macros) >= 1.164
+BuildRequires:	rpmbuild(macros) >= 1.736
 BuildRequires:	shared-mime-info
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz

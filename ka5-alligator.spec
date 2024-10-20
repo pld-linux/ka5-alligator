@@ -15,7 +15,7 @@ License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
 # Source0-md5:	d77cd5bfeed9ee26918b26aac5578412
-URL:		https://kde.org/
+URL:		https://apps.kde.org/alligator/
 BuildRequires:	Qt5Core-devel >= 5.15.2
 BuildRequires:	Qt5Gui-devel
 BuildRequires:	Qt5Network-devel >= 5.15.9
